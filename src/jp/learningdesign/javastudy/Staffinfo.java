@@ -4,6 +4,10 @@ class Staff {
 	String name ;
 	int staffid;
 	String email;
+	
+	public void sayhello() {
+		System.out.println("Hello " + this.name);
+	}
 }
 
 public class Staffinfo {
@@ -15,7 +19,7 @@ public class Staffinfo {
 		yamada.staffid = 1;
 		yamada.email = "yamada@taro.com";
 		
-		System.out.println(yamada.email);
+		yamada.sayhello();
 
 	}
 
