@@ -1,7 +1,7 @@
 package jp.learningdesign.javastudy;
 
 class Staff {
-	String name ;
+	String name;
 	int staffid;
 	String email;
 	
